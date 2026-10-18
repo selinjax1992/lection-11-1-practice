@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+
+    <!-- Підключення стилів -->
+
+    <!-- Підключення скриптів -->
+    <script type="module" crossorigin src="/lection-11-1-practice/02-gallery.js"></script>
+    <link rel="modulepreload" crossorigin href="/lection-11-1-practice/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/lection-11-1-practice/assets/vendor-iVKk4foX.js">
+    <link rel="stylesheet" crossorigin href="/lection-11-1-practice/assets/02-gallery-rTs3RGdu.css">
+  </head>
+
+  <body>
+    <p><a href="../index.html">Go back</a></p>
+
+    <section class="gallery-section">
+      <div class="container">
+        <form class="search-form js-search-form">
+          <input
+            class="search-input js-search-input"
+            type="text"
+            name="user_query"
+          />
+          <button class="search-btn" type="submit">пошук</button>
+        </form>
+        <ul class="gallery js-gallery"></ul>
+        <div class="loader is-hidden js-loader"></div>
+      </div>
+    </section>
+  </body>
+</html>
